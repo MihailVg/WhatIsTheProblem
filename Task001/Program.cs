@@ -1,4 +1,4 @@
-﻿// разложение числа на простые множители
+// разложение числа на простые множители
 
 void SimpleSNumbers(int n)
 {
@@ -9,6 +9,7 @@ void SimpleSNumbers(int n)
         {
             Console.Write(m + " ");
             SimpleSNumbers(n/m);
+            break;
         }
         m++;
     }
